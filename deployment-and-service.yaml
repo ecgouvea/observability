@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: observability-app
-        image: localhost:5000/observability-app:v2
+        image: localhost:5000/observability-app:0.8.0
         ports:
         - containerPort: 8080
 ---
